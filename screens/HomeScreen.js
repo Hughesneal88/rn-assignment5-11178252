@@ -3,6 +3,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 import Header from '../components/Header';
 import CurrentCard from '../components/currentCard';
 import TransactionIcons from '../components/TransactionIcons';
+import TransactionList from '../components/TransactionList';
 
 export default function HomeScreen({ navigation }) {
   return (
@@ -10,6 +11,7 @@ export default function HomeScreen({ navigation }) {
     <Header />
     <CurrentCard />
     <TransactionIcons />
+    <TransactionList />
     </>
     // <View style={styles.container}>
     //   <Text>Home Screen</Text>
