@@ -21,7 +21,7 @@ export const ThemeProvider = ({ children }) => {
     isDarkMode,
     toggleTheme,
     colors: {
-      background: isDarkMode ? '#121212' : '#FFFFFF',
+      background: isDarkMode ? '#161622' : '#FFFFFF',
       text: isDarkMode ? '#FFFFFF' : '#000000',
       // Add more theme colors as needed
     },
